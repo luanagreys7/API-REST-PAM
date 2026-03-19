@@ -3,7 +3,8 @@
         {
             "firstName": "Rafael",
             "lastName": "Cruz",
-            "email": "rafael@email.com.br"
+            "email": "rafael@email.com.br",
+            "phone": "11999999999"
         }
     ]
 }

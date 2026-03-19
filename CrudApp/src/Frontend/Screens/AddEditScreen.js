@@ -12,13 +12,15 @@ export default function AddEditScreen({ route, navigation }) {
     const [firstName, setFirstName] = useState(person ?.firstName || "");
     const [lastName, setLastName] = useState(person ?.lastName || "");
     const [email, setEmail] = useState(person ?.email || "");
+    const [phone, setPhone] = useState(person ?.phone || "");
 
     async function save() {
 
         const data = {
             firstName,
             lastName,
-            email
+            email,
+            phone
         };
 
         if (person) {
@@ -50,16 +52,17 @@ export default function AddEditScreen({ route, navigation }) {
                 onChangeText={setEmail}
             />
 
-            <Button 
-                title="Salvar" 
-                onPress={save} 
+            <TextInput
+                placeholder="Phone"
+                value={phone}
+                onChangeText={setPhone}
             />
 
             <Button 
                 title="Cancelar" 
                 onPress={() => navigation.goBack()} 
             />
-            
+
         </View>
     );
 }
