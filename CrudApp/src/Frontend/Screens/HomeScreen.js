@@ -5,7 +5,7 @@ import { styles } from "../Styles/styles";
 
 import { getPeople } from "../../Backend/servers/peopleCrud";
 
-export default function HomeScreen() {
+export default function HomeScreen( { navigation } ) {
 
     // estado da lista
     const [people, setPeople] = React.useState([]);
@@ -31,4 +31,21 @@ export default function HomeScreen() {
 
             <Button 
                 title="Adicionar Pessoas" 
-                onPress={() => {}} />
+                onPress={() => navigation.navigate("AddEdit")} 
+            />
+
+            <FlatList
+                data={people}
+                keyExtractor={(item) => item.id.toString()}
+
+                renderItem={({ item }) => (
+                    <CardPersonal
+                        item={item}
+                        navigation={navigation}
+                        refresh={loadPeople}
+                    />
+                )}
+            />
+        </View>
+    );
+}
