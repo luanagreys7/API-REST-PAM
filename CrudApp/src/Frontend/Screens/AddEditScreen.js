@@ -1,7 +1,7 @@
 import React from "react";
 import { View, TextInput, Button} from "react-native";
 
-import { styles } from "../Styles/styles";
+import { styles } from "../stylestyles/styles";
 
 import { createPerson, updatePerson } from "../../Backend/servers/peopleCrud";
 
