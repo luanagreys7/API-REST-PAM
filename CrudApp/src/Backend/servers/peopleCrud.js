@@ -1,35 +1,26 @@
-import { API_URL } from "./configApi.js";
+import {API_URL} from "./configApi";
 
-//Função para buscar todas as pessoas
+export async function getPeople(){
 
-export async function getPeople() {
-
-    // realiza requisição GET
     const response = await fetch(`${API_URL}/people`);
 
-    // converte resposta para JSON
     const data = await response.json();
 
-    // retorna lista
     return data;
 }
-
-//Função para criar nova pessoa
 
 export async function createPerson(person) {
 
     const response = await fetch(`${API_URL}/people`, {
-        method: "POST", // método HTTP
+        method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify(person) // transforma objeto em JSON
+        body: JSON.stringify(person)
     });
 
     return response.json();
 }
-
-//Função para atualizar pessoa
 
 export async function updatePerson(id, person) {
 
@@ -43,8 +34,6 @@ export async function updatePerson(id, person) {
 
     return response.json();
 }
-
-//Função para deletar pessoa
 
 export async function deletePerson(id) {
 

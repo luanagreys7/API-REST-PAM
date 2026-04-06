@@ -1,45 +1,63 @@
-import React, { useEffect, useState } from "react";
-import { View, Text, FlatList, Button } from "react-native";
-import styles from "../styles/styles";
-import { getPeople, deletePerson } from "../servers/peopleCrud";
+import { FlatList, Text, TouchableOpacity, View, TextInput } from 'react-native';
+import { useEffect, useState } from 'react';
+import { useNavigation } from '@react-navigation/native';
 
-import { styles } from "../styles/styles";
+import styles from '../styles/styles';
 
-import { getPeople } from "../../Backend/servers/peopleCrud";
+import { getPeople } from '../servers/peopleCrud';
+import { CardPersonal } from '../components/CardPersonal'
 
-export default function HomeScreen( { navigation } ) {
-
-    // estado da lista
+export default function HomeScreen({ }) {
+    const navigation = useNavigation();
     const [people, setPeople] = useState([]);
+    const [search, setSearch] = useState('');
 
-    // função para carregar dados
     async function loadPeople() {
-
         const data = await getPeople();
-
         setPeople(data);
     }
 
-    // executa ao abrir tela
     useEffect(() => {
-        loadPeople();
-    }, []);
+        const unsubscribe = navigation.addListener('focus', () => {
+            loadPeople();
+        });
+
+        return unsubscribe
+    }, [navigation]);
+
+    const filteredPeople = people.filter((person) => {
+        const term = search.toLowerCase();
+        return (
+            person.firstName.toLowerCase().includes(term) ||
+            person.lastName.toLowerCase().includes(term) ||
+            person.email.toLowerCase().includes(term) ||
+            person.phone.includes(term)
+        );
+    });
 
     return (
-
         <View style={styles.container}>
 
             <Text style={styles.title}>Pessoas</Text>
 
-            <Button 
-                title="Adicionar Pessoas" 
-                onPress={() => navigation.navigate("AddEdit")} 
+            <TouchableOpacity
+                style={styles.button}
+                onPress={() => navigation.navigate("AddEdit")}
+            >
+                <Text style={styles.buttonText}>Adicionar Pessoa</Text>
+            </TouchableOpacity>
+
+            <TextInput
+                style={styles.searchInput}
+                placeholder="Pesquisar por nome, email ou telefone..."
+                placeholderTextColor="#999"
+                value={search}
+                onChangeText={setSearch}
             />
 
             <FlatList
-                data={people}
+                data={filteredPeople}
                 keyExtractor={(item) => item.id.toString()}
-
                 renderItem={({ item }) => (
                     <CardPersonal
                         item={item}
@@ -48,48 +66,7 @@ export default function HomeScreen( { navigation } ) {
                     />
                 )}
             />
-        </View>
-    );
-}
-
-function CardPersonal({ item, navigation, refresh }) {
-
-    return (
-        <View style={styles.card}>
-
-            <View>
-
-                <Text style={styles.name}>
-                    {item.firstName} {item.lastName}
-                </Text>
-
-                <Text style={styles.email}>
-                    {item.email}
-                </Text>
-
-                <Text style={styles.phone}>
-                    {item.phone}
-                </Text>
-
-            </View>
-
-            <View>
-
-                <Button 
-                    title="Editar" 
-                    onPress={() => navigation.navigate("AddEdit", { person: item, refresh })} 
-                />
-
-                <Button 
-                    title="Deletar" 
-                    onPress={async () => {
-                        await deletePerson(item.id);
-                        refresh();
-                    }}
-                />  
-
-            </View>
 
         </View>
-    );
+    )
 }
