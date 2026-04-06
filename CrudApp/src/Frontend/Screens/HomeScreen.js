@@ -4,8 +4,8 @@ import { useNavigation } from '@react-navigation/native';
 
 import styles from "../../Backend/servers/peopleCrud";
 
-import { getPeople } from '../servers/peopleCrud';
-import { CardPersonal } from '../components/CardPersonal'
+import { getPeople } from '../../Backend/servers/peopleCrud';
+import { CardPersonal } from '../../components/CardPersonal'
 
 export default function HomeScreen( { } ) {
 

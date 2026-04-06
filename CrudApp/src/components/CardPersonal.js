@@ -1,7 +1,7 @@
 import { Text, TouchableOpacity, View } from 'react-native';
-import styles from '../styles/styles';
+import styles from '../Frontend/Styles/styles';
 
-import { deletePerson } from '../servers/peopleCrud';
+import { deletePerson } from '../Backend/servers/peopleCrud';
 
 export function CardPersonal({ item, navigation, refresh }) {
 
