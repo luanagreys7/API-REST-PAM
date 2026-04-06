@@ -1,6 +1,6 @@
 # CrudApp - Gerenciamento de pessoas
 
-## 📱 Descrição do Projeto
+## Descrição do Projeto
 
 Trata-se de um aplicativo mobile para o gerenciamento e cadastro de pessoas desenvolvido em **React Native com Expo**, consumindo uma **API REST fake** criada com Json-Server. O projeto implementa as operações CRUD (Create, Read, Update e Delete).
 
@@ -8,9 +8,10 @@ Trata-se de um aplicativo mobile para o gerenciamento e cadastro de pessoas dese
 
 ## 🛠️ Tecnologias utilizadas:
 
+[![My Skills](https://skillicons.dev/icons?i=react)](https://skillicons.dev)
+
 - React Native - Framework mobile
 - Expo - Ambiente de desenvolvimento
-[![My Skills](https://skillicons.dev/icons?i=react)](https://skillicons.dev)
 - React Navigation - Navegação entre telas 
 - Json-Server - API REST simulada 
 - Cloudflared - Túnel para expor a API localmente 
