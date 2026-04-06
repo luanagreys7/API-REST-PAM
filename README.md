@@ -6,9 +6,7 @@ Trata-se de um aplicativo mobile para o gerenciamento e cadastro de pessoas dese
 
 ---
 
-## 🛠️ Tecnologias utilizadas:
-
-[![My Skills](https://skillicons.dev/icons?i=react)](https://skillicons.dev)
+## [![My Skills](https://skillicons.dev/icons?i=react)](https://skillicons.dev) Tecnologias utilizadas:
 
 - React Native - Framework mobile
 - Expo - Ambiente de desenvolvimento
@@ -87,7 +85,7 @@ Aperte a tecla 'w' para utilizar a versão web do aplicativo ou copie o link web
 
 ---
 
-## 💡 Explicação da Solução
+## 📁 Funcionamento do projeto
 
 ### Arquitetura
 
