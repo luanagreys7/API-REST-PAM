@@ -24,7 +24,7 @@ Trata-se de um aplicativo mobile para o gerenciamento e cadastro de pessoas dese
 **1. Clone o repositório:**
 
 ```bash
-git clone https://github.com/anajuca/MeuCrud.git
+git clone https://github.com/luanagreys7/API-REST-PAM.git
 cd CrudApp
 ```
 
