@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Trata-se de um aplicativo mobile para o gerenciamento e cadastro de pessoas desenvolvido em **React Native com Expo**, consumindo uma **API REST fake** criada com Json-Server. O projeto implementa as operações CRUD (Create, Read, Update e Delete).
+Trata-se de um aplicativo mobile para o gerenciamento e cadastro de pessoas desenvolvido em **React Native** com **Expo**, consumindo uma **API REST fake** criada com o **Json-Server**. O projeto implementa as operações **CRUD** (Create, Read, Update e Delete) e faz parte da disciplina de **PAM** (Programação de Aplicativos Mobile).
 
 ---
 
@@ -50,9 +50,9 @@ npm install cloudflared
 
 ## 🛠️ Execução 
 
-É necessário, simultaneamente, roda o servidor fake (backend) e o aplicativo (frontend).
+É necessário, simultaneamente, rodar o servidor fake (backend) e o aplicativo (frontend).
 
-### 1. Iniciar o servidor Json-Server
+**1. Iniciar o servidor Json-Server**
 
 Na raiz do projeto, acesse a pasta `backend`, dentro de `src`, e execute:
 
@@ -64,7 +64,7 @@ npx json-server --watch database.json --port 3000
 
 A API ficará disponível em: `http://localhost:3000/people`
 
-### 2. Criar o túnel com CloudFlared
+**2. Criar o túnel com CloudFlared**
 
 Em um **novo terminal**, execute:
 
@@ -74,7 +74,7 @@ npx cloudflared tunnel --url http://localhost:3000
 
 A API ganhará uma nova porta segura.
 
-### 3. Iniciar o aplicativo
+**3. Iniciar o aplicativo**
 
 Em um **novo terminal**, na raiz do projeto:
 
