@@ -12,7 +12,7 @@ Trata-se de um aplicativo mobile para o gerenciamento e cadastro de pessoas dese
 
 ---
 
-## Tecnologias utilizadas:
+## Tecnologias utilizadas
 ## [![My Skills](https://skillicons.dev/icons?i=react)](https://skillicons.dev) 
 
 - React Native - Framework mobile
@@ -23,9 +23,9 @@ Trata-se de um aplicativo mobile para o gerenciamento e cadastro de pessoas dese
 
 ---
 
-## 📁 Funcionamento do projeto
+## 📁 Funcionamento
 
-### Arquitetura
+### Estrutura
 
 ```
 CrudApp/
