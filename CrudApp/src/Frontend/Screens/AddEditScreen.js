@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { View, TextInput, TouchableOpacity, Text } from "react-native";
 
-import styles from "../styles/styles";
+import styles from "../Styles/styles";
 
-import { createPerson, updatePerson } from "../servers/peopleCrud";
+import { createPerson, updatePerson } from "../../Backend/servers/peopleCrud";
 
 export default function AddEditScreen({ route, navigation }) {
 
@@ -15,7 +15,13 @@ export default function AddEditScreen({ route, navigation }) {
     const [phone, setPhone] = useState(person?.phone || '');
 
     async function save() {
-        const data = { firstName, lastName, email, phone };
+        
+        const data = { 
+            firstName, 
+            lastName, 
+            email, 
+            phone 
+        };
 
         if (person) {
             await updatePerson(person.id, data);
