@@ -1,5 +1,13 @@
 # CrudApp - Gerenciamento de pessoas
 
+---
+
+## 🎥 Vídeo Demonstrativo
+
+[![Assista ao vídeo](https://img.shields.io/badge/YouTube-Vídeo%20Demonstrativo-red?style=for-the-badge&logo=youtube)](SEU_LINK_DO_VIDEO_AQUI)
+
+---
+
 ## Descrição do Projeto
 
 Trata-se de um aplicativo mobile para o gerenciamento e cadastro de pessoas desenvolvido em **React Native** com **Expo**, consumindo uma **API REST fake** criada com o **Json-Server**. O projeto implementa as operações **CRUD** (Create, Read, Update e Delete) e faz parte da disciplina de **PAM** (Programação de Aplicativos Mobile).
@@ -114,8 +122,4 @@ CrudApp/
 
 A navegação entre telas é gerenciada pelo **React Navigation** (`native-stack`), configurado no `App.js`, com as rotas `Home` e `AddEdit`.
 
----
 
-## 🎥 Vídeo Demonstrativo
-
-[![Assista ao vídeo](https://img.shields.io/badge/YouTube-Vídeo%20Demonstrativo-red?style=for-the-badge&logo=youtube)](SEU_LINK_DO_VIDEO_AQUI)
