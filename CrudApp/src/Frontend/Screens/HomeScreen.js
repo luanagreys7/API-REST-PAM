@@ -2,18 +2,21 @@ import { FlatList, Text, TouchableOpacity, View, TextInput } from 'react-native'
 import { useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 
-import styles from '../styles/styles';
+import styles from "../../Backend/servers/peopleCrud";
 
 import { getPeople } from '../servers/peopleCrud';
 import { CardPersonal } from '../components/CardPersonal'
 
-export default function HomeScreen({ }) {
+export default function HomeScreen( { } ) {
+
     const navigation = useNavigation();
     const [people, setPeople] = useState([]);
     const [search, setSearch] = useState('');
 
     async function loadPeople() {
+
         const data = await getPeople();
+
         setPeople(data);
     }
 
@@ -68,5 +71,5 @@ export default function HomeScreen({ }) {
             />
 
         </View>
-    )
+    );
 }
