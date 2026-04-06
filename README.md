@@ -6,7 +6,8 @@ Trata-se de um aplicativo mobile para o gerenciamento e cadastro de pessoas dese
 
 ---
 
-## [![My Skills](https://skillicons.dev/icons?i=react)](https://skillicons.dev) Tecnologias utilizadas:
+## [![My Skills](https://skillicons.dev/icons?i=react)](https://skillicons.dev) 
+## Tecnologias utilizadas:
 
 - React Native - Framework mobile
 - Expo - Ambiente de desenvolvimento
@@ -47,7 +48,7 @@ npm install cloudflared
 
 ---
 
-## ▶️ Execução
+## 🛠️ Execução 
 
 É necessário, simultaneamente, roda o servidor fake (backend) e o aplicativo (frontend).
 
