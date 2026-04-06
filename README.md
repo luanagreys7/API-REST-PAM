@@ -23,6 +23,36 @@ Trata-se de um aplicativo mobile para o gerenciamento e cadastro de pessoas dese
 
 ---
 
+## 📁 Funcionamento do projeto
+
+### Arquitetura
+
+```
+CrudApp/
+├── assets/                        # Imagens e recursos estáticos
+├── src/
+│   ├── Backend/
+│   │   ├──database.json           # Banco de dados do Json-Server
+│   │   └──servers/                
+│   │       ├──configApi.js        # URL da API
+│   │       └──peopleCrud.js       # Funções CRUD
+│   ├── Frontend/
+│   │   ├──Screens/
+│   │   │   ├── HomeScreen.js      # Tela principal com a lista
+│   │   │   └── AddEditScreen.js   # Tela de cadastro e edição
+│   │   └──Styles
+│   │        └── styles.js         # Estilos centralizados
+│   └── components/
+│       └── CardPersonal.js        # Componente de card para exibir pessoa
+└── App.js                         # Configuração de navegação
+```
+
+### Navegação
+
+A navegação entre telas é gerenciada pelo **React Navigation** (`native-stack`), configurado no `App.js`, com as rotas `Home` e `AddEdit`.
+
+---
+
 ## ⚙️ Instalação
 
 ### Passos
@@ -89,35 +119,3 @@ npx expo start
 ```
 
 Aperte a tecla 'w' para utilizar a versão web do aplicativo ou copie o link web e utilize a extensão MobileView.
-
----
-
-## 📁 Funcionamento do projeto
-
-### Arquitetura
-
-```
-CrudApp/
-├── assets/                        # Imagens e recursos estáticos
-├── src/
-│   ├── Backend/
-│   │   ├──database.json           # Banco de dados do Json-Server
-│   │   └──servers/                
-│   │       ├──configApi.js        # URL da API
-│   │       └──peopleCrud.js       # Funções CRUD
-│   ├── Frontend/
-│   │   ├──Screens/
-│   │   │   ├── HomeScreen.js      # Tela principal com a lista
-│   │   │   └── AddEditScreen.js   # Tela de cadastro e edição
-│   │   └──Styles
-│   │        └── styles.js         # Estilos centralizados
-│   └── components/
-│       └── CardPersonal.js        # Componente de card para exibir pessoa
-└── App.js                         # Configuração de navegação
-```
-
-### Navegação
-
-A navegação entre telas é gerenciada pelo **React Navigation** (`native-stack`), configurado no `App.js`, com as rotas `Home` e `AddEdit`.
-
-
