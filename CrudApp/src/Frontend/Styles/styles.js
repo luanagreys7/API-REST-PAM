@@ -13,15 +13,16 @@ export default StyleSheet.create({
         fontSize: 22,
         textAlign: "center",
         marginBottom: 20,
-        color: "#a163a6", // 👈 mude para a cor desejada
+        color: "#a163a6" // 👈 mude para a cor desejada
     },
+
     card: {
         flexDirection: "row",
         justifyContent: "space-between",
         backgroundColor: "#fff",
         padding: 10,
         marginBottom: 10,
-        borderRadius: 12
+        borderRadius: 5
     },
 
     name: {
