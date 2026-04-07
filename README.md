@@ -88,7 +88,7 @@ npm install -g json-server
 ```bash
 npm install cloudflared
 ```
-- A URL do LocalTunnel **muda a cada reinicialização**, então é necessário atualizar o arquivo `configApi.js`.
+
 ---
 
 ## 🛠️ Execução 
@@ -115,7 +115,7 @@ Em um **novo terminal**, execute:
 npx cloudflared tunnel --url http://localhost:3000
 ```
 
-A API ganhará uma nova porta segura.
+- A URL do LocalTunnel **muda a cada reinicialização**, então é necessário atualizar o arquivo `configApi.js`.
 
 **3. Iniciar o aplicativo**
 
