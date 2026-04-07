@@ -6,14 +6,14 @@ export default StyleSheet.create({
         paddingTop: 50,
         flex: 1,
         padding: 20,
-        backgroundColor: "#ffbaf4"
+        backgroundColor: "#E5E3F2"
     },
 
     title: {
         fontSize: 22,
         textAlign: "center",
         marginBottom: 20,
-        color: "#a163a6" // 👈 mude para a cor desejada
+        color: "#0B66FE"
     },
 
     card: {
@@ -52,7 +52,7 @@ export default StyleSheet.create({
     button: {
         paddingVertical: 10,
         paddingHorizontal: 18,
-        backgroundColor: "#d15cbe",
+        backgroundColor: "#0B66FE",
         borderRadius: 12,
         marginVertical: 4,
         alignItems: 'center',

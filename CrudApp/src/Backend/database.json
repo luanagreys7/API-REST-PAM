@@ -1,124 +1,145 @@
 {
   "people": [
-    { "id": "1", 
-    "firstName": "Rafael", 
-    "lastName": "Cruz", 
-    "email": "rafael@email.com.br", 
-    "phone": "11999999999" 
+    {
+      "id": "2",
+      "firstName": "Carlos",
+      "lastName": "Silva",
+      "email": "ca.silva@email.com.br",
+      "phone": "11987654321"
     },
-      { "id": "2", 
-      "firstName": "Carlos", 
-      "lastName": "Silva", 
-      "email": "ca.silva@email.com.br", 
-      "phone": "11987654321" 
+    {
+      "firstName": "Júlia",
+      "lastName": "Maria",
+      "email": "laalla@email.com.br",
+      "phone": "2",
+      "id": "3"
     },
-      { "id": "3", 
-      "firstName": "Mari", 
-      "lastName": "Santos", 
-      "email": "mari.san@email.com.br", 
-      "phone": "21976543210" 
+    {
+      "id": "4",
+      "firstName": "Pedro",
+      "lastName": "Ferreira",
+      "email": "pe.fer@email.com.br",
+      "phone": "31965432109"
     },
-      { "id": "4", 
-      "firstName": "Pedro", 
-      "lastName": "Ferreira", 
-      "email": "pe.fer@email.com.br", 
-      "phone": "31965432109" 
+    {
+      "id": "5",
+      "firstName": "Juli",
+      "lastName": "Costa",
+      "email": "juli.cos@email.com.br",
+      "phone": "41954321098"
     },
-      { "id": "5", 
-      "firstName": "Juli", 
-      "lastName": "Costa", 
-      "email": "juli.cos@email.com.br", 
-      "phone": "41954321098" 
+    {
+      "id": "6",
+      "firstName": "Rafa",
+      "lastName": "Almeida",
+      "email": "rafa.alm@email.com.br",
+      "phone": "51943210987"
     },
-      { "id": "6", 
-      "firstName": "Rafa", 
-      "lastName": "Almeida", 
-      "email": "rafa.alm@email.com.br", 
-      "phone": "51943210987" 
+    {
+      "id": "7",
+      "firstName": "Fer",
+      "lastName": "Lima",
+      "email": "fer.lima@email.com.br",
+      "phone": "61932109876"
     },
-      { "id": "7", 
-      "firstName": "Fer", 
-      "lastName": "Lima", 
-      "email": "fer.lima@email.com.br", 
-      "phone": "61932109876" 
+    {
+      "id": "8",
+      "firstName": "Lucas",
+      "lastName": "Pereira",
+      "email": "lu.per@email.com.br",
+      "phone": "71921098765"
     },
-      { "id": "8", 
-      "firstName": "Lucas", 
-      "lastName": "Pereira", 
-      "email": "lu.per@email.com.br", 
-      "phone": "71921098765" 
+    {
+      "id": "9",
+      "firstName": "Bia",
+      "lastName": "Rodrigues",
+      "email": "bia.rod@email.com.br",
+      "phone": "81910987654"
     },
-      { "id": "9", 
-      "firstName": "Bia", 
-      "lastName": "Rodrigues", 
-      "email": "bia.rod@email.com.br", 
-      "phone": "81910987654" 
+    {
+      "id": "11",
+      "firstName": "Cami",
+      "lastName": "Nasc",
+      "email": "cami.nas@email.com.br",
+      "phone": "11898765432"
     },
-      { "id": "10", 
-      "firstName": "Gus", 
-      "lastName": "Martins", 
-      "email": "gus.mar@email.com.br", 
-      "phone": "91909876543" 
+    {
+      "id": "12",
+      "firstName": "Diego",
+      "lastName": "Carvalho",
+      "email": "di.car@email.com.br",
+      "phone": "21887654321"
     },
-      { "id": "11", 
-      "firstName": "Cami", 
-      "lastName": "Nasc", 
-      "email": "cami.nas@email.com.br", 
-      "phone": "11898765432" 
+    {
+      "id": "13",
+      "firstName": "Lari",
+      "lastName": "Gomes",
+      "email": "lari.gom@email.com.br",
+      "phone": "31876543210"
     },
-      { "id": "12", 
-      "firstName": "Diego", 
-      "lastName": "Carvalho", 
-      "email": "di.car@email.com.br", 
-      "phone": "21887654321" 
+    {
+      "id": "14",
+      "firstName": "Thi",
+      "lastName": "Barbosa",
+      "email": "thi.bar@email.com.br",
+      "phone": "41865432109"
     },
-    { "id": "13", 
-      "firstName": "Lari", 
-      "lastName": "Gomes", 
-      "email": "lari.gom@email.com.br", 
-      "phone": "31876543210" 
+    {
+      "id": "15",
+      "firstName": "Vane",
+      "lastName": "Ribeiro",
+      "email": "vane.rib@email.com.br",
+      "phone": "51854321098"
     },
-    { "id": "14", 
-      "firstName": "Thi", 
-      "lastName": "Barbosa", 
-      "email": "thi.bar@email.com.br", 
-      "phone": "41865432109" 
+    {
+      "id": "16",
+      "firstName": "Rod",
+      "lastName": "Mendes",
+      "email": "rod.men@email.com.br",
+      "phone": "61843210987"
     },
-    { "id": "15", 
-      "firstName": "Vane", 
-      "lastName": "Ribeiro", 
-      "email": "vane.rib@email.com.br", 
-      "phone": "51854321098" 
+    {
+      "id": "17",
+      "firstName": "Pati",
+      "lastName": "Araujo",
+      "email": "pati.ara@email.com.br",
+      "phone": "71832109876"
     },
-    { "id": "16", 
-      "firstName": "Rod", 
-      "lastName": "Mendes", 
-      "email": "rod.men@email.com.br", 
-      "phone": "61843210987" 
+    {
+      "id": "18",
+      "firstName": "Fel",
+      "lastName": "Sousa",
+      "email": "fel.sous@email.com.br",
+      "phone": "81821098765"
     },
-    { "id": "17", 
-      "firstName": "Pati", 
-      "lastName": "Araujo", 
-      "email": "pati.ara@email.com.br", 
-      "phone": "71832109876" 
+    {
+      "id": "19",
+      "firstName": "Ama",
+      "lastName": "Dias",
+      "email": "ama.dias@email.com.br",
+      "phone": "91810987654"
     },
-    { "id": "18", 
-      "firstName": "Fel", 
-      "lastName": "Sousa", 
-      "email": "fel.sous@email.com.br", 
-      "phone": "81821098765" 
+    {
+      "id": "20",
+      "firstName": "Bruno",
+      "lastName": "Caval",
+      "email": "bru.cav@email.com.br",
+      "phone": "11809876543"
     },
-    { "id": "19", 
-      "firstName": "Ama", 
-      "lastName": "Dias", 
-      "email": "ama.dias@email.com.br", 
-      "phone": "91810987654" 
+    {
+      "firstName": "Luan",
+      "lastName": "ferreira",
+      "email": "lalala",
+      "phone": "333",
+      "id": "L3z2vFoGPzU"
     },
-    { "id": "20", 
-      "firstName": "Bruno", 
-      "lastName": "Caval", 
-      "email": "bru.cav@email.com.br", 
-      "phone": "11809876543" 
+    {
+      "firstName": "nova pessoas",
+      "lastName": "teste",
+      "email": "eee",
+      "phone": "eee",
+      "id": "h5CfJWCPDks"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
