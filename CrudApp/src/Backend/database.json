@@ -8,13 +8,6 @@
       "phone": "11987654321"
     },
     {
-      "firstName": "Júlia",
-      "lastName": "Maria",
-      "email": "laalla@email.com.br",
-      "phone": "2",
-      "id": "3"
-    },
-    {
       "id": "4",
       "firstName": "Pedro",
       "lastName": "Ferreira",
@@ -127,18 +120,11 @@
       "phone": "11809876543"
     },
     {
-      "firstName": "Luan",
-      "lastName": "ferreira",
-      "email": "lalala",
-      "phone": "333",
-      "id": "L3z2vFoGPzU"
-    },
-    {
-      "firstName": "nova pessoas",
-      "lastName": "teste",
-      "email": "eee",
-      "phone": "eee",
-      "id": "h5CfJWCPDks"
+      "firstName": "",
+      "lastName": "ada",
+      "email": "dad",
+      "phone": "",
+      "id": "nZ0O3NGi6SM"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
