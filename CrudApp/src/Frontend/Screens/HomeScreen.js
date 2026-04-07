@@ -1,15 +1,13 @@
 import { FlatList, Text, TouchableOpacity, View, TextInput } from 'react-native';
 import { useEffect, useState } from 'react';
-import { useNavigation } from '@react-navigation/native';
 
-import styles from "../../Backend/servers/peopleCrud";
+import styles from "../../Styles/styles";
 
 import { getPeople } from '../../Backend/servers/peopleCrud';
 import { CardPersonal } from '../../components/CardPersonal'
 
-export default function HomeScreen( { } ) {
+export default function HomeScreen( { navigation } ) {
 
-    const navigation = useNavigation();
     const [people, setPeople] = useState([]);
     const [search, setSearch] = useState('');
 
@@ -60,7 +58,7 @@ export default function HomeScreen( { } ) {
 
             <FlatList
                 data={filteredPeople}
-                keyExtractor={(item) => item.id.toString()}
+                keyExtractor={(item) => String(item.id)}
                 renderItem={({ item }) => (
                     <CardPersonal
                         item={item}

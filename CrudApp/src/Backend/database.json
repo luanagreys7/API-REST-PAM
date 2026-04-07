@@ -1,145 +1,124 @@
 {
-    "people": [
-        {
-          "id": 1,
-          "firstName": "Rafael",
-          "lastName": "Cruz",
-          "email": "rafael@email.com.br",
-          "phone": "11999999999"
-        },
-        {
-          "firstName": "Carlos",
-          "lastName": "Silva",
-          "email": "ca.silva@gmail.com",
-          "phone": "11987654321",
-          "id": "A1B2C3D4E5F"
-        },
-        {
-          "firstName": "Mari",
-          "lastName": "Santos",
-          "email": "mari.san@hotmail.com",
-          "phone": "21976543210",
-          "id": "G6H7I8J9K0L"
-        },
-        {
-          "firstName": "Pedro",
-          "lastName": "Ferreira",
-          "email": "pe.fer@outlook.com",
-          "phone": "31965432109",
-          "id": "M1N2O3P4Q5R"
-        },
-        {
-          "firstName": "Juli",
-          "lastName": "Costa",
-          "email": "juli.cos@gmail.com",
-          "phone": "41954321098",
-          "id": "S6T7U8V9W0X"
-        },
-        {
-          "firstName": "Rafa",
-          "lastName": "Almeida",
-          "email": "rafa.alm@gmail.com",
-          "phone": "51943210987",
-          "id": "Y1Z2A3B4C5D"
-        },
-        {
-          "firstName": "Fer",
-          "lastName": "Lima",
-          "email": "fer.lima@hotmail.com",
-          "phone": "61932109876",
-          "id": "E6F7G8H9I0J"
-        },
-        {
-          "firstName": "Lucas",
-          "lastName": "Pereira",
-          "email": "lu.per@outlook.com",
-          "phone": "71921098765",
-          "id": "K1L2M3N4O5P"
-        },
-        {
-          "firstName": "Bia",
-          "lastName": "Rodrigues",
-          "email": "bia.rod@gmail.com",
-          "phone": "81910987654",
-          "id": "Q6R7S8T9U0V"
-        },
-        {
-          "firstName": "Gus",
-          "lastName": "Martins",
-          "email": "gus.mar@gmail.com",
-          "phone": "91909876543",
-          "id": "W1X2Y3Z4A5B"
-        },
-        {
-          "firstName": "Cami",
-          "lastName": "Nasc",
-          "email": "cami.nas@hotmail.com",
-          "phone": "11898765432",
-          "id": "C6D7E8F9G0H"
-        },
-        {
-          "firstName": "Diego",
-          "lastName": "Carvalho",
-          "email": "di.car@gmail.com",
-          "phone": "21887654321",
-          "id": "I1J2K3L4M5N"
-        },
-        {
-          "firstName": "Lari",
-          "lastName": "Gomes",
-          "email": "lari.gom@outlook.com",
-          "phone": "31876543210",
-          "id": "O6P7Q8R9S0T"
-        },
-        {
-          "firstName": "Thi",
-          "lastName": "Barbosa",
-          "email": "thi.bar@gmail.com",
-          "phone": "41865432109",
-          "id": "U1V2W3X4Y5Z"
-        },
-        {
-          "firstName": "Vane",
-          "lastName": "Ribeiro",
-          "email": "vane.rib@hotmail.com",
-          "phone": "51854321098",
-          "id": "A6B7C8D9E0F"
-        },
-        {
-          "firstName": "Rod",
-          "lastName": "Mendes",
-          "email": "rod.men@gmail.com",
-          "phone": "61843210987",
-          "id": "G1H2I3J4K5L"
-        },
-        {
-          "firstName": "Pati",
-          "lastName": "Araujo",
-          "email": "pati.ara@outlook.com",
-          "phone": "71832109876",
-          "id": "M6N7O8P9Q0R"
-        },
-        {
-          "firstName": "Fel",
-          "lastName": "Sousa",
-          "email": "fel.sous@gmail.com",
-          "phone": "81821098765",
-          "id": "S1T2U3V4W5X"
-        },
-        {
-          "firstName": "Ama",
-          "lastName": "Dias",
-          "email": "ama.dias@hotmail.com",
-          "phone": "91810987654",
-          "id": "Y6Z7A8B9C0D"
-        },
-        {
-          "firstName": "Bruno",
-          "lastName": "Caval",
-          "email": "bru.cav@gmail.com",
-          "phone": "11809876543",
-          "id": "E1F2G3H4I5J"
-        }
-    ],
-    "$schema": "./node_modules/json-server/schema.json"
+  "people": [
+    { "id": "1", 
+    "firstName": "Rafael", 
+    "lastName": "Cruz", 
+    "email": "rafael@email.com.br", 
+    "phone": "11999999999" 
+    },
+    { "id": "2", 
+    "firstName": "Carlos", 
+    "lastName": "Silva", 
+    "email": "ca.silva@email.com.br", 
+    "phone": "11987654321" 
+    },
+      { "id": "3", 
+      "firstName": "Mari", 
+      "lastName": "Santos", 
+      "email": "mari.san@email.com.br", 
+      "phone": "21976543210" 
+    },
+      { "id": "4", 
+      "firstName": "Pedro", 
+      "lastName": "Ferreira", 
+      "email": "pe.fer@email.com.br", 
+      "phone": "31965432109" 
+    },
+      { "id": "5", 
+      "firstName": "Juli", 
+      "lastName": "Costa", 
+      "email": "juli.cos@email.com.br", 
+      "phone": "41954321098" 
+    },
+      { "id": "6", 
+      "firstName": "Rafa", 
+      "lastName": "Almeida", 
+      "email": "rafa.alm@email.com.br", 
+      "phone": "51943210987" 
+    },
+      { "id": "7", 
+      "firstName": "Fer", 
+      "lastName": "Lima", 
+      "email": "fer.lima@email.com.br", 
+      "phone": "61932109876" 
+    },
+      { "id": "8", 
+      "firstName": "Lucas", 
+      "lastName": "Pereira", 
+      "email": "lu.per@email.com.br", 
+      "phone": "71921098765" 
+    },
+      { "id": "9", 
+      "firstName": "Bia", 
+      "lastName": "Rodrigues", 
+      "email": "bia.rod@email.com.br", 
+      "phone": "81910987654" 
+    },
+      { "id": "10", 
+      "firstName": "Gus", 
+      "lastName": "Martins", 
+      "email": "gus.mar@email.com.br", 
+      "phone": "91909876543" 
+    },
+      { "id": "11", 
+      "firstName": "Cami", 
+      "lastName": "Nasc", 
+      "email": "cami.nas@email.com.br", 
+      "phone": "11898765432" 
+    },
+      { "id": "12", 
+      "firstName": "Diego", 
+      "lastName": "Carvalho", 
+      "email": "di.car@email.com.br", 
+      "phone": "21887654321" 
+    },
+    { "id": "13", 
+      "firstName": "Lari", 
+      "lastName": "Gomes", 
+      "email": "lari.gom@email.com.br", 
+      "phone": "31876543210" 
+    },
+    { "id": "14", 
+      "firstName": "Thi", 
+      "lastName": "Barbosa", 
+      "email": "thi.bar@email.com.br", 
+      "phone": "41865432109" 
+    },
+    { "id": "15", 
+      "firstName": "Vane", 
+      "lastName": "Ribeiro", 
+      "email": "vane.rib@email.com.br", 
+      "phone": "51854321098" 
+    },
+    { "id": "16", 
+      "firstName": "Rod", 
+      "lastName": "Mendes", 
+      "email": "rod.men@email.com.br", 
+      "phone": "61843210987" 
+    },
+    { "id": "17", 
+      "firstName": "Pati", 
+      "lastName": "Araujo", 
+      "email": "pati.ara@email.com.br", 
+      "phone": "71832109876" 
+    },
+    { "id": "18", 
+      "firstName": "Fel", 
+      "lastName": "Sousa", 
+      "email": "fel.sous@email.com.br", 
+      "phone": "81821098765" 
+    },
+    { "id": "19", 
+      "firstName": "Ama", 
+      "lastName": "Dias", 
+      "email": "ama.dias@email.com.br", 
+      "phone": "91810987654" 
+    },
+    { "id": "20", 
+      "firstName": "Bruno", 
+      "lastName": "Caval", 
+      "email": "bru.cav@email.com.br", 
+      "phone": "11809876543" 
+    }
+  ]
 }
