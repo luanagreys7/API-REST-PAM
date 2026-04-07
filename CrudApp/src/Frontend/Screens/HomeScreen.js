@@ -1,7 +1,7 @@
 import { FlatList, Text, TouchableOpacity, View, TextInput } from 'react-native';
 import { useEffect, useState } from 'react';
 
-import styles from "../../Styles/styles";
+import styles from "../Styles/styles";
 
 import { getPeople } from '../../Backend/servers/peopleCrud';
 import { CardPersonal } from '../../components/CardPersonal'
@@ -19,20 +19,16 @@ export default function HomeScreen( { navigation } ) {
     }
 
     useEffect(() => {
-        const unsubscribe = navigation.addListener('focus', () => {
-            loadPeople();
-        });
+        loadPeople();
+    }, []);
 
-        return unsubscribe
-    }, [navigation]);
-
-    const filteredPeople = people.filter((person) => {
+    const filteredPeople = (people || []).filter((person) => {
         const term = search.toLowerCase();
         return (
-            person.firstName.toLowerCase().includes(term) ||
-            person.lastName.toLowerCase().includes(term) ||
-            person.email.toLowerCase().includes(term) ||
-            person.phone.includes(term)
+            person.firstName?.toLowerCase().includes(term) ||
+            person.lastName?.toLowerCase().includes(term) ||
+            person.email?.toLowerCase().includes(term) ||
+            person.phone?.includes(term)
         );
     });
 

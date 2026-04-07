@@ -6,11 +6,11 @@
     "email": "rafael@email.com.br", 
     "phone": "11999999999" 
     },
-    { "id": "2", 
-    "firstName": "Carlos", 
-    "lastName": "Silva", 
-    "email": "ca.silva@email.com.br", 
-    "phone": "11987654321" 
+      { "id": "2", 
+      "firstName": "Carlos", 
+      "lastName": "Silva", 
+      "email": "ca.silva@email.com.br", 
+      "phone": "11987654321" 
     },
       { "id": "3", 
       "firstName": "Mari", 
