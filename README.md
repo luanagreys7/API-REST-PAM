@@ -12,17 +12,6 @@ Trata-se de um aplicativo mobile para o gerenciamento e cadastro de pessoas dese
 
 ---
 
-## Tecnologias utilizadas
-## [![My Skills](https://skillicons.dev/icons?i=js,react,npm)](https://skillicons.dev) 
-
-- React Native - Framework mobile
-- Expo - Ambiente de desenvolvimento
-- React Navigation - Navegação entre telas 
-- Json-Server - API REST simulada 
-- Cloudflared - Túnel para expor a API localmente 
-
----
-
 ## 📁 Funcionamento
 
 ### Estrutura
@@ -50,6 +39,17 @@ CrudApp/
 ### Navegação
 
 A navegação entre telas é gerenciada pelo **React Navigation** (`native-stack`), configurado no `App.js`, com as rotas `Home` e `AddEdit`.
+
+---
+
+## Tecnologias utilizadas
+## [![My Skills](https://skillicons.dev/icons?i=js,react,npm)](https://skillicons.dev) 
+
+- React Native - Framework mobile
+- Expo - Ambiente de desenvolvimento
+- React Navigation - Navegação entre telas 
+- Json-Server - API REST simulada 
+- Cloudflared - Túnel para expor a API localmente 
 
 ---
 
