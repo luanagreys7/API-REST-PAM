@@ -88,7 +88,7 @@ npm install -g json-server
 ```bash
 npm install cloudflared
 ```
-
+- A URL do LocalTunnel **muda a cada reinicialização**, então é necessário atualizar o arquivo `configApi.js`.
 ---
 
 ## 🛠️ Execução 
