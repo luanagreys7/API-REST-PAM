@@ -13,7 +13,7 @@ Trata-se de um aplicativo mobile para o gerenciamento e cadastro de pessoas dese
 ---
 
 ## Tecnologias utilizadas
-## [![My Skills](https://skillicons.dev/icons?i=react)](https://skillicons.dev) 
+## [![My Skills](https://skillicons.dev/icons?i=react,js,npm)](https://skillicons.dev) 
 
 - React Native - Framework mobile
 - Expo - Ambiente de desenvolvimento
