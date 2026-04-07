@@ -68,6 +68,9 @@ cd CrudApp
 
 ```bash
 npm install
+npx expo install @react-navigation/native
+npx expo install @react-navigation/native-stack
+npx expo install react-native-screens react-native-safe-area-context
 ```
 
 **3. Instale o Json-Server:**
@@ -118,4 +121,4 @@ Em um **novo terminal**, na raiz do projeto:
 npx expo start
 ```
 
-Aperte a tecla 'w' para utilizar a versão web do aplicativo ou copie o link web e utilize a extensão MobileView.
+Aperte a tecla 'w' para utilizar a versão web do aplicativo ou copie o link web e utilize-o na extensão MobileView.
