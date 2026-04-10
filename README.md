@@ -2,7 +2,7 @@
 
 ## 🎥 Vídeo explicativo
 
-[![Assista ao vídeo](https://img.shields.io/badge/YouTube-Vídeo%20Demonstrativo-red?style=for-the-badge&logo=youtube)](SEU_LINK_DO_VIDEO_AQUI)
+[![Assista ao vídeo](https://img.shields.io/badge/YouTube-Vídeo%20Demonstrativo-red?style=for-the-badge&logo=youtube)](https://youtu.be/SwdDaKF6aiA)
 
 ---
 
